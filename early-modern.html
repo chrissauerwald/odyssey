@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A Journey Through Time: Homer's Odyssey - Early Modern</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 viewport-fit=cover">
+    <meta name="theme-color" content="#1F4AA0">
+    
+    <!-- import stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- import Google Fonts -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Homemade+Apple&family=Patrick+Hand+SC&family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <!-- import the Mirador viewer -->
+    <script src="https://cdn.jsdelivr.net/npm/mirador@latest/dist/mirador.min.js"></script>
+  </head>  
+  
+  <body>
+  
+  	<div class="container">
+  
+   <header>
+    
+    <h1><a href="index.html">A Journey Through Time: Homer's Odyssey</a></h1>
+    
+    <p>An exhibit of written versions of Homer's epic story over the centuries</p>
+    
+    </header>
+    
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages.html">Exhibit Pages</a>
+                <ul class="dropdown">
+                    <li><a href="ancient.html">Ancient</a></li>
+                    <li><a href="medieval.html">Medieval</a></li>
+                    <li><a href="early-modern.html">Early Modern</a></li>
+                    <li><a href="modern.html">Modern</a></li>
+                </ul>
+            </li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+    
+    <nav class="breadcrumb">
+    	<a href="index.html">Home</a>
+        <span>&gt;</span>
+        <a href="pages.html">Pages</a>
+        <span>&gt;</span>
+        <span>Early Modern</span>
+    </nav>
+ 
+    <h2>Early modern version of the Odyssey</h2>
+    
+    <div id="mirador1" class="mirador"></div>
+
+    <script type="text/javascript">
+      Mirador.viewer({
+        id: "mirador1",
+        // Look you can open up Mirador with windows!!
+        windows: [
+          {
+            manifestId: 'https://www.loc.gov/item/12034441/manifest.json',
+            canvasIndex: 12
+          },
+        ]
+      });
+    </script>
+    
+    <noscript><h3>In order to use the Mirador IIIF viewer, you must enable JavaScript in your browser. A downloadable version of this object may be available.</h3></noscript>
+    
+    <h3>The printing press brings books to the masses</h3>
+
+			<p class="main">The advent of <a href="https://en.wikipedia.org/wiki/Printing_press">the printing press</a> and the subsequent proliferation of literature led to a rapidly expanding literate reading class during the sixteenth and seventeenth centuries. A growing literate population craved new works to read, and the <em>Odyssey</em> found a fertile audience. Unlike the initial printed versions, the <em>Odyssey</em> increasingly found itself translated and reprinted in the vernacular of its printed location rather than in its original Greek. These translations, while opening the story of Odysseus to a larger audience, led to vigorous debate regarding the theory and practice of translation. Each translation of the <em>Odyssey</em> opened the doorway for the translator's personal biases or beliefs to impact the text. This ultimately could affect the actual message of the story and lead to variations in the translated text at odds with the original meaning.</p>
+
+<p class="main">The version of the text presented here is from an 1853 edition of the <em>Odyssey</em>. This version was originally translated into English by the celebrated English poet and satirist, <a href="https://en.wikipedia.org/wiki/Alexander_Pope">Alexander Pope</a> (1688–1744). Pope undertook a translation of both the <em>Iliad</em> and the <em>Odyssey</em> in the early 1700s, gaining widespread recognition (and profits) from his edition. The original run of this translation of the <em>Odyssey</em> extended to five volumes. Pope chose to translate the ancient Greek into rhyming heroic couplets to address gaps between Ancient Greek and English. Despite the celebrity the translation brought Pope, contemporary classical scholars were critical of his work. Classical scholar Richard Bentley, a contemporary of Pope, commented, "It is a pretty poem, Mr. Pope, but you must not call it Homer," regarding Pope's first translation of the <em>Iliad</em>. This only highlights the challenges faced by translators attempting to bring Homer into their vernacular.</p>
+
+    
+    <h3 class="tab">Item details:</h3>
+    
+    <div class="info">
+    	<ul class="item">
+		  <li><strong>Title</strong>: The Odyssey of Homer</li>
+		  <li><strong>Author</strong>: Alexander Pope</li>
+		  <li><strong>Publisher</strong>: Ingram, Cooke & Co., London</li> 
+		  <li><strong>Language</strong>: English</li> 
+		  <li><strong>Date</strong>: 1853</li> 
+		  <li><strong>Format</strong>: Book</li> 
+		  <li><strong>Holding Institution</strong>: Library of Congress</li>
+			</ul>
+    </div>
+    
+    	<footer>
+	
+		<nav class="footer-nav">
+			<ul>
+				<li class="prev"><a href="medieval.html">Medieval versions</a></li>
+				<li class="next"><a href="modern.html">Modern version</a></li>
+			</ul>				
+		</nav>
+	
+	</footer>
+	
+	</div> <!-- end container div -->
+    
+  </body>
+</html>

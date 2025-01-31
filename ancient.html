@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A Journey Through Time: Homer's Odyssey - Ancient</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 viewport-fit=cover">
+    <meta name="theme-color" content="#1F4AA0">
+    
+    <!-- import stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- import Google Fonts -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Homemade+Apple&family=Patrick+Hand+SC&family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <!-- import the Mirador viewer -->
+    <script src="https://cdn.jsdelivr.net/npm/mirador@latest/dist/mirador.min.js"></script>
+  </head>  
+  
+  <body>
+  
+  	<div class="container">
+  
+   <header>
+    
+    <h1><a href="index.html">A Journey Through Time: Homer's Odyssey</a></h1>
+    
+    <p>An exhibit of written versions of Homer's epic story over the centuries</p>
+    
+    </header>
+    
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages.html">Exhibit Pages</a>
+                <ul class="dropdown">
+                    <li><a href="ancient.html">Ancient</a></li>
+                    <li><a href="medieval.html">Medieval</a></li>
+                    <li><a href="early-modern.html">Early Modern</a></li>
+                    <li><a href="modern.html">Modern</a></li>
+                </ul>
+            </li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+    
+    <nav class="breadcrumb">
+    	<a href="index.html">Home</a>
+        <span>&gt;</span>
+        <a href="pages.html">Pages</a>
+        <span>&gt;</span>
+        <span>Ancient</span>
+    </nav>
+ 
+    <h2>Ancient version of the Odyssey</h2>
+    
+    <div id="mirador1" class="mirador"></div>
+
+    <script type="text/javascript">
+      Mirador.viewer({
+        id: "mirador1",
+        // Look you can open up Mirador with windows!!
+        windows: [
+          {
+            manifestId: 'https://iiif.bodleian.ox.ac.uk/iiif/manifest/21a20b8a-8604-4e0e-a9e9-f17ddf0af387.json'
+          },
+        ]
+      });
+    </script>
+    
+    <noscript><h3>In order to use the Mirador IIIF viewer, you must enable JavaScript in your browser. A downloadable version of this object may be available. <a href="https://digital.bodleian.ox.ac.uk/objects/21a20b8a-8604-4e0e-a9e9-f17ddf0af387/">Click here to go to the original</a></h3></noscript>
+    
+    <h3>A fragment of antiquity</h3>
+    
+    <p class="main">The text above is one of the earliest known surviving versions of the <em>Odyssey</em>. Written on papyrus, it is reputed to have originated in Egypt during the 2nd or 3rd centuries BCE. This coincides with the flourishing of the great <a href="https://en.wikipedia.org/wiki/Library_of_Alexandria">Library of Alexandria</a>. Scholars believe that the scribes of Alexandria were producing numerous copies of Homer's work during this time. In fact, over 1,000 manuscripts related to Homer's work exist. This number far exceeds that of many other classical writers from the same period. Unfortunately, we do not know exactly what prompted these ancient scribes to take such an interest in Homer's work. The Library of Alexandria was burned during the Roman Civil Wars of 48 BCE and suffered a slow decline until the early 3rd century CE, when it finally closed its doors.</p>
+
+    
+    <h3 class="tab">Item details:</h3>
+    
+    <div class="info">
+    	<ul class="item">
+			<li><strong>Title</strong>: Odyssey; Scholia minora on Homer, Iliad, ii; Literary fragments</li>
+  <li><strong>Shelfmark</strong>: Bodleian Library MS. Gr. class. e. 134 (P)</li> 
+  <li><strong>Author</strong>: Homer</li> 
+  <li><strong>Language</strong>: Greek</li> 
+  <li><strong>Date</strong>: 2nd century or 3rd century</li> 
+  <li><strong>Place of Origin</strong>: Egypt</li> 
+  <li><strong>Materials</strong>: Papyrus</li> 
+  <li><strong>Collection</strong>: Greek and Latin Papyri</li> 
+  <li><strong>Holding Institution</strong>: Bodleian Libraries, University of Oxford</li> 
+		</ul>
+    </div>
+    
+    	<footer>
+	
+		<nav class="footer-nav">
+			<ul>
+				<li class="prev"><a href="index.html">Home</a></li>
+				<li class="next"><a href="medieval.html">Medieval versions</a></li>
+			</ul>				
+		</nav>
+	
+	</footer>
+	
+	</div> <!-- end container div -->
+    
+  </body>
+</html>
