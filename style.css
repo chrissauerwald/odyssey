@@ -6,6 +6,9 @@ html {
     -webkit-text-size-adjust: 100%; 
 }
 
+@view-transition {
+	navigation: auto;
+}
 
 body {
   font-family: "Roboto Slab", serif;
