@@ -15,7 +15,7 @@ body {
   margin: 2em;
   color: #000;
   background: url(waves.png), linear-gradient(0deg, rgba(31,74,160,1) 10%, rgba(31,74,160,0) 27%);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: center bottom;
 }
